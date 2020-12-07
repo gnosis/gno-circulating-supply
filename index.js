@@ -75,7 +75,7 @@ async function run(){
     // Setting up S3 upload parameters
     const params = {
         Bucket: bucketName,
-        Key: 'test',
+        Key: 'index',
         Body: circulatingSupplyInteger.toString(),
         ContentType: "text/plain"
     };
