@@ -19,7 +19,7 @@ async function run(){
 
     // Validations
     if(!nodeUrl){
-        debug("MNEMONIC and NODE_URL cannot be null");
+        debug("NODE_URL cannot be null");
         process.exit(1)
     }
 
